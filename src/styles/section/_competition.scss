@@ -1,0 +1,92 @@
+.competition{
+    background-color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.competition__content{
+    display: flex;
+}
+
+.competition__title{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.competition__time, .competition__subtitle{
+    display: inline-block;
+}
+
+.competition__time, .competition__subtitle, .competition__prize{
+    font-size: 15px;  
+    font-family: "PT Sans";
+    color: rgb(95, 91, 91);
+    font-weight: bold;
+}
+
+.competition__list{
+    max-height: 30vh;
+    overflow:hidden;
+}
+
+.competition__list--active{
+    max-height: 100%;
+    
+}
+
+.competition__subtitle{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.competition__prize{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: normal;
+   
+}
+
+.competition__prize_winner{
+    color: #9b9b9b;
+    margin-left: 5px;
+}
+
+
+.competition__item{
+    margin-bottom: 30px;
+}
+
+
+.competition__desc{
+    text-align: center;
+    width: 50%;
+}
+
+.competition__slider{
+    width: 50%;
+}
+  
+.bx-controls-direction{
+    display: none;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #e02222;
+}
+  
+
+
+.bx-wrapper{
+    box-shadow: none;
+    border: 10px solid #ebebeb;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #e1e1e1;
+}

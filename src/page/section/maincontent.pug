@@ -1,0 +1,137 @@
+main
+  .maincontent__decor
+    img(src=require("../../img/decor/left_objects.png"), alt="decor").decor-pic.decor-pic_left
+    img(src=require("../../img/decor/right_objects.png"), alt="decor").decor-pic.decor-pic_right
+  .maincontent__content.container
+    .maincontent__desc
+      p.maincontent__date 21 апреля
+      h1.maincontent__title Бухгалтерский марафон
+      p.maincontent__text
+        |21 апреля в честь Дня Главбуха мы проводим первый в истории Бухгалтерский марафон. 
+        |Ведущие эксперты по бухучету и налогам весь день будут отвечать
+        |на самые сложные рабочие вопросы.
+      .schedule
+        .schedule__head
+          .schedule__icon
+          h4.schedule__title Расписание
+        ul.schedule__list
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster1.png').video_1
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 12:00
+              p.desc__text актуальные вопросы расчета пособий.изменения в 2015 году 
+              p.desc__auth Сергей Воронцов
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster2.png').video_2
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 13:00
+              p.desc__text НДФЛ.Неоднозначные ситуации при расчете
+              p.desc__auth Андрей Свиридов
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster3.png').video_3
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 16:30
+              p.desc__text Налог на прибыль: спорные вопросы и поправки 2015 года  
+              p.desc__auth Федор Иванов
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster4.png').video_4
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 12:00
+              p.desc__text актуальные вопросы расчета пособий.изменения в 2015 году 
+              p.desc__auth Сергей Воронцов
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster5.png').video_5
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 13:00
+              p.desc__text НДФЛ.Неоднозначные ситуации при расчете 
+              p.desc__auth Андрей Свиридов
+          li.schedule__item
+            .video
+              video(width="90%", height="125", controls, poster='../../img/content/poster6.png').video_6
+                source(src="" type="video/mp4")
+            .desc  
+              p.desc__time 16:30
+              p.desc__text Налог на прибыль: спорные вопросы и поправки 2015 года 
+              p.desc__auth Федор Иванов
+        .registration
+          button.registration__button Зарегистрироваться
+        a.draw(href="") 
+          p.draw__text Розыгрыш призов и подарков
+          .draw__arrow
+  .competition
+    .competition__content.container
+      .competition__desc
+        .competition__title
+          h2 Конкурсы и призы
+        .competition__list    
+          .competition__item
+            .competition__time
+              p 10:15
+            .competition__subtitle
+              h4 Творческий конкурс 
+            .competition__prize
+              p Приз: мультиварка.
+              p.competition__prize_winner 3 Победителя
+          .competition__item
+            .competition__time
+              p 11:20
+            .competition__subtitle
+              h4 Задача на расчет 
+            .competition__prize
+              p Приз: браслет Pandora с шармом.
+              p.competition__prize_winner 1 Победитель
+          .competition__item
+            .competition__time
+              p 12:15
+            .competition__subtitle
+              h4 Теоретический вопрос 
+            .competition__prize
+              p Приз: цифровая фоторамка.
+              p.competition__prize_winner 2 Победителя
+          .competition__item
+            .competition__time
+              p 10:15
+            .competition__subtitle
+              h4 Творческий конкурс 
+            .competition__prize
+              p Приз: мультиварка.
+              p.competition__prize_winner 3 Победителя
+          .competition__item
+            .competition__time
+              p 11:20
+            .competition__subtitle
+              h4 Задача на расчет 
+            .competition__prize
+              p Приз: браслет Pandora с шармом.
+              p.competition__prize_winner 1 Победитель
+          .competition__item
+            .competition__time
+              p 12:15
+            .competition__subtitle
+              h4 Теоретический вопрос 
+            .competition__prize
+              p Приз: цифровая фоторамка.
+              p.competition__prize_winner 2 Победителя
+        a.draw(href="")#btn 
+          p.draw__text Загрузить больше
+          .draw__arrow
+      .competition__slider
+        ul.bxslider
+          li.slider__item
+            img(src=require("../../img/content/multicooker.png"))
+          li.slider__item
+            img(src=require("../../img/content/multicooker.png"))
+          li.slider__item
+            img(src=require("../../img/content/multicooker.png"))
+        
+  
