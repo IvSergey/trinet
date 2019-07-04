@@ -10,7 +10,8 @@ $(document).ready(function(){
     const btn = document.querySelector('#btn');
     const competition = document.querySelector('.competition__list');
     
-    btn.addEventListener('click', ()=>{
+    btn.addEventListener('click', (e)=>{
+        e.preventDefault();
 
         if(competition.classList.contains("competition__list--active")){
             competition.classList.remove("competition__list--active"); 
